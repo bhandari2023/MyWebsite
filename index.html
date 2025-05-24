@@ -4,17 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Circle Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1 id="welcome">welcome</h1>
-    <label for="">Enter radius of the circle:</label>
-    <input type="text" id="radius" >
-    <button id="submit">Submit</button>
-    <div id="result"></div>
+    <h1 id="welcome">Welcome</h1>
 
+    <div id ="circleCalc">
+        <label for="radius">Enter radius of the circle:</label>
+    <input type="number" id="radius" placeholder="e.g. 5" min="0" step="any">
+    <button id="submit">Submit</button>
+    </div>
+    <div id="SquareCalc">
+        <label for="side">Enter side of the Square:</label>
+    <input type="number" id="sqSide" placeholder="e.g. 5" min="0" step="any">
+    <button id="submit2">Submit</button>
+    </div>
+    <div id="TriangleCalc">
+        <label for="base">Ente Triangle Base:</label>
+    <input type="number" id="base" placeholder="e.g. 5" min="0" step="any">
+    <label for="height">Enter Triangle Ht:</label>
+    <input type="number" id="height" placeholder="e.g. 5" min="0" step="any">
+    <button id="submit3">Submit</button>    
+    </div>
+    <div id="result" style="margin-top: 10px; font-weight: bold;"></div>
     <script src="script.js"></script>
 </body>
 
