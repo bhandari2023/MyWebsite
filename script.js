@@ -1,3 +1,122 @@
+
+// const Year = document.getElementById("evenOddInput");
+// const evenOddResult = document.getElementById("evenOddResult");
+// const evenOddBtn = document.getElementById("evenOddBtn");
+
+// evenOddBtn.addEventListener("click", function () {
+//     const year = parseInt(evenOddInput.value, 10);
+//     if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+//         evenOddResult.textContent = `${year} is a leap year.`;
+//     } else {
+//         evenOddResult.textContent = `${year} is not a leap year.`;
+//     }
+// });
+
+
+
+
+
+// grade calculator
+// evenOddBtn.addEventListener("click", function () {
+//     const number = parseInt(evenOddInput.value, 10);
+//     if (isNaN(number)) {
+//         evenOddResult.textContent = "Please enter a valid number.";
+//     } else if (number >= 90 && number <= 100) {
+//         evenOddResult.textContent = "You got A+";
+//     } else if (number >= 80 && number < 90) {
+//         evenOddResult.textContent = "You got A";
+//     } else if (number >= 70 && number < 80) {
+//         evenOddResult.textContent = "You got B";
+//     } else if (number >= 60 && number < 70) {
+//         evenOddResult.textContent = "You got C";
+//     } else if (number >= 50 && number < 60) {
+//         evenOddResult.textContent = "You got D";
+//     }
+//     else if (number >= 0 && number < 50) {
+//         evenOddResult.textContent = "You got F";
+//     } else {
+//         evenOddResult.textContent = "Please enter a number between 0 and 100.";
+//     }
+
+// });
+
+
+
+// function to check num is + - or 0
+
+// evenOddBtn.addEventListener("click", function () {
+//     const number = parseInt(evenOddInput.value, 10);
+//     if (isNaN(number)) {
+//         evenOddResult.textContent = "Please enter a valid number.";
+//     } else {
+//         if (number === 0) {
+//             evenOddResult.textContent = `${number} is zero.`;
+//         } else if (number > 0) {
+//             evenOddResult.textContent = `${number} is a positive number.`;
+//         } else {
+//             evenOddResult.textContent = `${number} is a negative number.`;
+//         }
+//     }
+// });
+
+// function to check even and ODD
+// evenOddBtn.addEventListener("click", function () {
+//     const number = parseInt(evenOddInput.value, 10);
+//     if (isNaN(number)) {
+//         evenOddResult.textContent = "Please enter a valid number.";
+//     }
+//     else {
+//         if (number % 2 === 0) {
+//             evenOddResult.textContent = `${number} is an even number.`;
+//         } else {
+//             evenOddResult.textContent = `${number} is an odd number.`;
+//         }
+//     }
+// });
+
+// const evenOddInput = document.getElementById("evenOddInput");
+// const evenOddResult = document.getElementById("evenOddResult");
+// const evenOddBtn = document.getElementById("evenOddBtn");
+
+// evenOddBtn.addEventListener("click", function () {
+//     const number = parseInt(evenOddInput.value, 10);
+//     if (isNaN(number)) {
+//         evenOddResult.textContent = "Please enter a valid number.";
+//     }
+//     else {
+//         if (number % 2 === 0) {
+//             evenOddResult.textContent = `${number} is an even number.`;
+//         } else {
+//             evenOddResult.textContent = `${number} is an odd number.`;
+//         }
+//     }
+// });
+
+
+
+
+
+// program for dice roll application
+// const diceBtn = document.getElementById("diceBtn");
+// const diceResult = document.getElementById("diceResult");
+// const diceResult2 = document.getElementById("diceResult2");
+// const diceResult3 = document.getElementById("diceResult3");
+// diceBtn.addEventListener("click", function () {
+//     let randomNumber = Math.floor(Math.random() * 6) + 1;
+//     let randomNumber2 = Math.floor(Math.random() * 6) + 1;
+//     let randomNumber3 = Math.floor(Math.random() * 6) + 1;// Generates a random number between 1 and 6
+//     diceResult.textContent = randomNumber;
+//     diceResult2.textContent = randomNumber2;
+//     diceResult3.textContent = randomNumber3;
+
+// });
+
+
+// let randomNumber = Math.floor(Math.random() * 6) + 1; // Generates a random number between 1 and 6
+
+
+
+
 // document.getElementById("submit").addEventListener("click", function () {
 //     try {
 //         const pi = 3.14;
@@ -91,20 +210,22 @@
 // }
 // );
 
-const increaseButton = document.getElementById("increaseBtn");
-const decreaseButton = document.getElementById("decreaseBtn");
-const resetButton = document.getElementById("resetBtn");
-const counterDisplay = document.getElementById("myCount");
-let count = 0;
-increaseButton.addEventListener("click", function () {
-    count++;
-    counterDisplay.textContent = count;
-});
-decreaseButton.addEventListener("click", function () {
-    count--;
-    counterDisplay.textContent = count;
-});
-resetButton.addEventListener("click", function () {
-    count = 0;
-    counterDisplay.textContent = count;
-});
+// Function for Counter Application
+// const increaseButton = document.getElementById("increaseBtn");
+// const decreaseButton = document.getElementById("decreaseBtn");
+// const resetButton = document.getElementById("resetBtn");
+// const counterDisplay = document.getElementById("myCount");
+// let count = 0;
+// increaseButton.addEventListener("click", function () {
+//     count++;
+//     counterDisplay.textContent = count;
+// });
+// decreaseButton.addEventListener("click", function () {
+//     count--;
+//     counterDisplay.textContent = count;
+// });
+// resetButton.addEventListener("click", function () {
+//     count = 0;
+//     counterDisplay.textContent = count;
+// });
+
