@@ -1,3 +1,80 @@
+const myChkBox = document.getElementById("myChkBox");
+const myChkBoxResult = document.getElementById("myChkBoxResult");
+const visaBtn = document.getElementById("visaBtn");
+const masterCardBtn = document.getElementById("masterCard");
+const paypalBtn = document.getElementById("paypalBtn");
+const mySubmit = document.getElementById("mySubmit");
+const subResult = document.getElementById("subResult");
+const paymentResult = document.getElementById("paymentResult");
+
+mySubmit.onclick = function () {
+    if (myChkBox.checked) {
+        subResult.textContent = "You have successfully subscribed to our newsletter.";
+    } else {
+        subResult.textContent = "You have not subscribed to our newsletter.";
+    }
+
+
+    if (visaBtn.checked) {
+        paymentResult.textContent = "You have selected Visa as your payment method.";
+    } else if (masterCardBtn.checked) {
+        paymentResult.textContent = "You have selected MasterCard as your payment method.";
+    } else if (paypalBtn.checked) {
+        paymentResult.textContent = "You have selected PayPal as your payment method.";
+    }
+    else {
+        paymentResult.textContent = "Please select a payment method.";
+    }
+}
+
+
+
+
+
+
+
+
+const universalInput = document.getElementById("universalInput");
+const universalResult = document.getElementById("universalResult");
+const universalBtn = document.getElementById("universalBtn");
+universalBtn.onclick = function () {
+    const username = universalInput.value.trim().charAt(0).toUpperCase() + universalInput.value.trim().slice(1).toLowerCase();
+    universalResult.textContent = `Hello ${username}, welcome to our site!`;
+}
+
+// universalBtn.addEventListener("click", function () {
+//     const input = universalInput.value.trim();
+//     if (input >= 100) {
+//         universalResult.textContent = "You are too old to enter this site";
+//     } else if (input >= 18 && input < 100) {
+//         universalResult.textContent = "You are an adult.";
+//     } else if (input >= 13 && input < 18) {
+//         universalResult.textContent = "You are a teenager.";
+//     } else if (input >= 0 && input < 13) {
+//         universalResult.textContent = "You are a child.";
+//     }
+//     else {
+//         universalResult.textContent = "Please enter a valid age.";
+//     }
+
+
+// });
+
+
+
+
+
+
+// universalBtn.addEventListener("click", function () {
+//     const input = universalInput.value.trim();
+//     if (input < 25) {
+//         universalResult.textContent = "You are a child.";
+//     } else {
+//         universalResult.textContent = "You are an adult.";
+//     }
+// });
+
+
 
 // const Year = document.getElementById("evenOddInput");
 // const evenOddResult = document.getElementById("evenOddResult");
